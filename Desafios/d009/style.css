@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+body{
+    background-color:rgb(8, 114, 146) ;
+}
+
+h1{
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    background-color: rgb(50, 165, 180);
+    padding: 20px;
+    margin-top: 0px;
+    border-radius: 10px;
+}
+
+.videos{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    
+}

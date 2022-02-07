@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(83, 165, 236);
+    
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(45, 102, 151);
+    
+}
+p{
+    font-family: sans-serif;
+    color: rgb(192, 219, 243);
+    text-align: justify;
+}
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 22%, rgba(0,212,255,1) 100%);
+}
+a{
+    color: rgb(53, 144, 224);
+}
+video{
+    display: block;
+    margin: 0 auto;
+}

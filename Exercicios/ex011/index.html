@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <picture>
+        <source media="(max-width:750px)" srcset="Imagens/foto-p.png" type="image/png">
+        <source media="(max-width:1050px)" srcset="Imagens/foto-m.png" type="image/png">
+        <img src="Imagens/foto-g.png" alt="foto-g">
+    </picture>
+    <picture>
+        <source media="(max-width: 780px)" srcset="" type="image/">
+    </picture>
+    <h1>Audios no HTML5</h1>
+    <audio preload="metadata" controls>
+        <source src="media/Georges Bizet - Les Toreadors 8 Bit_160k.mp3" type="audio/mpeg">
+    </audio>
+    <a href="media/Georges Bizet - Les Toreadors 8 Bit_160k.mp3" type="audio/mpeg" download="George Bizet - Les Toreadores 8 Bit.mp3">Faça o download clicando aqui</a>
+</body>
+</html>

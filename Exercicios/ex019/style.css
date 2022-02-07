@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+
+body{
+    background-image: radial-gradient(rgb(189, 250, 189), rgb(192, 247, 192));
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    
+}
+
+h1{
+    color: rgb(55, 143, 55);
+}
+
+h2{
+    color: rgb(64, 124, 64);
+}
+
+h1#titulo-principal{
+    color: white;
+    text-align: center;
+    background-color: rgb(46, 133, 46);
+    border-radius: 10px;
+    padding: 0.4%;
+}
+p{
+    text-align: justify;
+}
+
+.basico{
+    color: rgb(91, 165, 91);
+    
+}
+
+.intermediario{
+    color: rgb(158, 158, 69);
+}
+.avancado{
+    color: rgb(253, 76, 76);
+}
