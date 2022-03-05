@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 2px;
+    background-image: url("https://images4.alphacoders.com/109/thumb-1920-1096657.jpg");
+
+}
+
+div.quadrado{
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: lightcoral;
+}
+
+div#q1{
+    background-color: lightblue;
+}
+div#q2{
+    background-image: linear-gradient(to right, #f8f878, #c2a363);
+}
+div#q3{
+    background-image: url("imagens/wallpaper001.jpg");
+
+}
